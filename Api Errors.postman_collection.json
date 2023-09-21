@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "c2fed050-94ca-4ba8-b594-7cee5dafc68f",
+		"name": "Api Errors",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15075051"
+	},
+	"item": [
+		{
+			"name": "Thrown error",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/errors/throw",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"errors",
+						"throw"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "400",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/errors/400",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"errors",
+						"400"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "401",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/errors/401",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"errors",
+						"401"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "403",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/errors/403",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"errors",
+						"403"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "404",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/errors/404",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"errors",
+						"404"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "409",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/errors/409",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"errors",
+						"409"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "500",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/errors/500",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"errors",
+						"500"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "502",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/errors/502",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"errors",
+						"502"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "503",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/errors/503",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"errors",
+						"503"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
