@@ -12,7 +12,7 @@ FROM base as run
 
 EXPOSE 8080
 
-ARG ARTIFACT=api-errors-0.0.1-SNAPSHOT
+ARG ARTIFACT=errors-api-0.0.1-SNAPSHOT
 ENV JAR_FILE=${ARTIFACT}.jar
 
 COPY --from=build /app/target/${JAR_FILE} /

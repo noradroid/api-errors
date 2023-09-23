@@ -5,10 +5,10 @@ to simulate an actual backend that responds with errors.
 
 ### Build
 ```
-docker build -t api-errors:0.0.1 .
+docker build -t errors-api:0.0.1 .
 ```
 
 ### Run
 ```
-docker run --rm -it -p 8080:8080 api-errors:0.0.1
+docker run --rm -it -p 8080:8080 errors-api:0.0.1
 ```
